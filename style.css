@@ -33,6 +33,10 @@ body{
     .main_tr td{
         font-size: 0.8rem !important;
     }
+
+    h4{
+        font-size: 1rem;
+    }
 }
 
 a{
@@ -81,4 +85,8 @@ h1{
     font-weight: 400;
     position: relative;
     bottom: 30px;
+}
+
+h4{
+    font-size: 1.4rem;
 }
