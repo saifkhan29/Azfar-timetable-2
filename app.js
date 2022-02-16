@@ -239,7 +239,7 @@ document.addEventListener('DOMContentLoaded',function(event){
        if (typeof dataText[i] == 'undefined'){
           setTimeout(function() {
             StartTextAnimation(0);
-          }, 20000);
+          }, 1000);
        }
        // check if dataText[i] exists
       if (i < dataText[i].length) {
