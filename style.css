@@ -73,9 +73,9 @@ h1{
     border: 1px solid black;
 }
 
-.red td:hover{
+/* .red td:hover{
     background-color: #f1f1f1;
-}
+} */
 .azfar{
     color: antiquewhite;
     font-size: 16px;
@@ -92,11 +92,11 @@ h4{
 
 
 .highlight{
-    background-color: #f77f00;
+    background-color: #023e8a;
     animation: ChangeColor .8s linear infinite forwards;
 }
 
-@keyframes ChangeColor {
+/* @keyframes ChangeColor {
     0%{
         background-color: #ff6464;
     }
@@ -105,6 +105,28 @@ h4{
     }
     100%{
         background-color: #ffdede;
+    }
+    
+} */
+
+.changeStyle{
+    color: #f7f7f7;
+    font-weight: 600;
+    animation: scaleText 1s infinite linear forwards;
+}
+
+@keyframes scaleText {
+    0%{
+        color: #f7f7f7;
+    }
+    33%{
+        transform: scale(1);
+    }
+    66%{
+        color: #e5383b;
+    }
+    100%{
+        transform: scale(0.98);
     }
     
 }
