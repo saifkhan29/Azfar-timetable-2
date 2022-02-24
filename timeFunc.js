@@ -6,7 +6,7 @@ const friday = document.querySelectorAll('.friday')
 
 const date = new Date();
 
-const timings = [10,11,12,13,14,15,16,17]
+const timings = [8,11,12,13,14,15,16,17]
 let i;
 timings.forEach((time,idx) => {
     if(time == date.getHours()){
@@ -21,6 +21,9 @@ daysOfTheWeek.forEach((eachDay, idx) => {
         eachDay[i].classList.add('highlight')
     }
 })
+const highlighted = document.querySelectorAll('.highlight a')
+highlighted.forEach(eachAnchor => eachAnchor.classList.add('changeStyle'))
+console.log(highlighted)
 
 
 
