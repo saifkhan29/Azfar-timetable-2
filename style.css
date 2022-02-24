@@ -52,6 +52,7 @@ table{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 10px 0 50px 0;
     background-color: #fff;
+    
 }
 
 h1{
@@ -87,4 +88,23 @@ h1{
 h4{
     font-size: 1.4rem;
     margin: 0;
+}
+
+
+.highlight{
+    background-color: #f77f00;
+    animation: ChangeColor .8s linear infinite forwards;
+}
+
+@keyframes ChangeColor {
+    0%{
+        background-color: #ff6464;
+    }
+    50%{
+        background-color: #ff9494;
+    }
+    100%{
+        background-color: #ffdede;
+    }
+    
 }
