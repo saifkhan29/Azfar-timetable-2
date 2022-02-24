@@ -6,7 +6,7 @@ const friday = document.querySelectorAll('.friday')
 
 const date = new Date();
 
-const timings = [8,11,12,13,14,15,16,17]
+const timings = [10,11,12,13,14,15,16,17]
 let i;
 timings.forEach((time,idx) => {
     if(time == date.getHours()){
